@@ -1,0 +1,45 @@
+.smallDisplayContainer{
+    background-color: white;
+    display: flex;
+    /* margin: 30px; */
+    min-width: 300px;
+    border-radius: 7px;
+    margin: auto;
+}
+.parentContainer {
+    padding: 10px 40px;
+}
+.contentContainer{
+    padding: 10px
+}
+.imgContainer{
+    max-width: 180px;
+    border-right: 1px solid lightgray;
+    cursor: pointer;
+}
+.contentContainer h2{
+    margin: 0;
+}
+.contentContainer i{
+    font-size: 14px;
+}
+
+.imgContainer img{
+    width: 100%;
+}   
+.btnContainer{
+    margin: 5px 0px;
+}
+.btnContainer button{
+    padding: 8px;
+    border: none;
+    transition: 0.2s all ease-in-out;
+}
+.btnTwo{
+    margin-left: 10px;
+}
+.btnContainer button:hover{
+    background-color: #e43a3a;
+    color: white;
+}
+

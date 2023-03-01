@@ -1,0 +1,83 @@
+/* //Colours
+$text: #484848;
+$highlight1: #81C7CD;
+$highlight2: #774992; */
+
+.fullScreenLoader {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bike {
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    display: flex;
+}
+
+.bike svg {
+    align-self: center;
+    margin: auto;
+}
+
+.frontwheel {
+    stroke-dasharray: 45;
+    stroke-dashoffset: 45;
+    animation: wheelspin 1s linear infinite;
+}
+
+@keyframes wheelspin {
+    0% {
+        stroke-dashoffset: 45;
+    }
+    100% {
+        stroke-dashoffset: -135;
+    }
+}
+
+
+/* .item {
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    display: flex;
+    svg {
+      align-self: center;
+      margin: auto;
+    }
+  } */
+
+
+/* 
+.bike {
+  svg {
+    #front-wheel-highlight {
+      stroke-dasharray: 45;
+      stroke-dashoffset: 45;
+      animation: wheelspin 1s linear infinite;
+    }
+  }
+}
+@keyframes wheelspin {
+	0% { 
+		stroke-dashoffset: 45;
+	}
+	100% { 
+		stroke-dashoffset: -135;
+	}
+} */

@@ -1,0 +1,420 @@
+.productDiv {
+    display: flex;
+}
+
+.productItemDiv {
+    border: 1px solid black;
+}
+
+.logoImg{
+    max-width: 200px;
+}
+
+.navbar {
+    background-color: black !important;
+    color: white !important;
+}
+
+.parentNavContainer{
+    background-color: white;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 6%);
+}
+
+.divFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.divFlexChild{
+    display: flex;
+    align-items: center
+}
+
+.divFlexChild p{
+    margin: 0 8px;
+}
+
+.navbarText{
+    margin: 0;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.secondNavBar {
+    background-color: white!important;
+    /* padding: 8px 0px; */
+    color: rgb(105, 99, 99) !important;
+    font-weight: 500;
+    width: 100%;
+    /* z-index: 2000; */
+    position: relative;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 6%);
+}
+
+.secondNavBar img{
+    max-width: 100px;
+}
+
+.secondNavBar a {
+    color: black !important;
+}
+
+
+.navbarContainer{
+    background-color: rgb(247, 169, 7) !important;
+    /* background-color: #FAB03A; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.navbarContainer h3{
+    margin: 0;
+    color: white;
+}
+.navbarContainer button{
+    background-color: rgb(32, 63, 122);
+}
+.navText{
+    background-color:rgb(32, 63, 122)
+}
+.navText i{
+    color: white
+}
+.btnGroup{
+    background: none
+}
+
+.categoryNavbar{
+    padding: 10px 0px;
+    position: relative;
+}
+
+.categoryNavbar input {
+    font-size: 1.10rem !important;
+    padding: 3px 5px;
+    max-width: 200px;
+}
+
+.inputContainer{
+    display: flex;
+}
+.inputContainer button{
+    background-color: white;
+    border: none;
+}
+.iconContainer{
+    font-size: 1.40rem;
+    padding: 3px 0px;
+    padding-top: 6px;
+    margin-left: 8px;
+}
+
+
+.suggestBox{
+    position: absolute;
+    z-index: 200;
+    background-color: #f7f7f7;
+    left: 0;
+    width: 88%;
+}
+
+.suggestBox a{
+    color: black
+}
+
+.suggestBox p{
+ cursor: pointer;
+ padding: 10px 10px;
+}
+
+.suggestBox p:hover{
+    background-color: darkgrey;
+}
+
+.suggestBox p:hover a{
+    color: white;
+}
+
+.suggestBox p:active a{
+    color: white;
+}
+
+
+.suggestBox p:active{
+    background-color: darkgrey;
+}
+
+.accountBtn{
+    border: none;
+}
+
+.accountBtn:hover{
+    background-color: #ffffff !important;
+    color: #F7A907 !important;
+    cursor: pointer;    
+}
+
+.accountBtn:active{
+    background-color: #ffffff !important;
+    color: #F7A907 !important;
+}
+
+.accountBtn:focus{
+    background-color: #ffffff !important;
+    color: #F7A907 !important
+}
+.accountBtn i{
+    padding-right: 8px;
+    margin-right: 5px;
+    border-right: 1px solid darkgrey 
+}
+.dropdownDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}  
+.navbarP{
+    cursor: pointer;
+    margin-bottom: 0px;
+    font-size: 1.15rem;
+    font-weight: 800;
+}
+.falseNavbarP{
+    border-bottom: 1px solid #F7A907; 
+    cursor: pointer;
+    margin-bottom: 0px
+}
+.iconLink{
+    font-weight: 100;
+    font-size: 13px;
+}
+.iconLink2{
+    font-weight: 100;
+    font-size: 13px;
+    cursor: pointer;
+}
+.iconLink2:hover{
+    color: #e43a3a;
+    cursor: pointer;
+}
+.iconLink2:active{
+    color: #e43a3a;    
+}
+.iconLink:active{
+    color: #e43a3a;    
+}
+.iconLink:hover{
+    color: #e43a3a;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+    .navbarP{
+        cursor: pointer;
+        margin-bottom: 0px
+    }
+    .dropdownDiv{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    .falseNavbarP{
+        border-bottom: 1px solid #F7A907; 
+        cursor: pointer;
+        margin-bottom: 0px
+    }   
+    .secondNavBar{
+        position:static;
+    }
+}
+
+.btnContainer{
+    display: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: #E6393B;
+    color: white;    
+    border-radius: 5px;
+}
+
+.btnContainer2{
+    display: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: #E6393B;
+    color: white;    
+    border-radius: 5px;
+    display: none;
+}
+.formControl{
+    display: flex;
+    justify-content: center;
+    max-width: 270px;
+}
+
+.parentContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.btnContainer:hover{
+    background-color: #203f7a;
+    color: white;
+}
+
+.btnContainer:active{
+    background-color: #203f7a;
+    color: white;
+}
+.btnContainer3{
+    display: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #F7A907;
+    color: white;    
+    border-radius: 5px;
+}
+.btnContainer3 button{
+    background-color: #E6393B;
+    color: white;
+    padding: 10px 15px;
+    border: none ;
+}
+.btnContainer3 button:hover{
+    background-color: #203f7a !important;
+    color: white !important;
+}
+.btnContainer3 button:active{
+    background-color: #203f7a !important;
+    color: white !important;  
+}
+.btnContainer3 button:focus{
+    background-color: #203f7a !important;
+    color: white !important;  
+    
+}
+.btnContainer2:hover{
+    background-color: #203f7a;
+    color: white;
+}
+
+.btnContainer2:active{
+    background-color: #203f7a;
+    color: white;
+}
+
+.navbarContainer{
+    position: relative;   
+    min-height: 100px;
+}
+
+.btnInfo{
+    padding: 10px 15px;
+    color: white;
+    background-color: #e43a3a;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    display: none;
+}
+.btnInfo:active{
+    background-color: #203f7a;
+}
+.btnInfo:hover{
+    background-color: #203f7a;
+}
+
+
+
+@media screen and (max-width: 990px) {
+    .btnContainer{
+        display: block;
+    }
+}
+ @media screen and  (max-width: 768px){
+     .btnContainer3{
+         display: block;
+     }
+     .btnContainerParent2{
+         display: none;
+     }
+     .iconLink2{
+        display: none;
+    }
+    .btnInfo{
+        display: block;
+    }
+ }
+
+@media screen and (max-width: 600px){
+    .btnContainer2{
+        display: block;
+    }    
+    .accountBtn{
+        display: none;
+    }
+    .iconLink2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .navbarContainer form input{
+        max-width: 250px;
+    }
+    .suggestBox{
+        left: 100px;
+        max-width: 250px;
+    }    
+}
+
+
+@media screen and (max-width: 380px) {
+    .navbarContainer form input{
+        max-width: 250px;
+        margin-top: 15px
+    }    
+    .suggestBox{
+        margin-top: 55px;
+        left: 100px;
+        max-width: 250px;
+    }   
+}
+@media screen and (max-width: 1050px) {
+    .navbarText{
+        display: none;
+    }
+}
+
+.subCategoryContainerDiv{
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.subCategoryContainerDiv p{
+    font-size: 1.15rem;
+}
+
+.navbarP:hover .subCategoryContainerDiv{
+    display: block;
+}

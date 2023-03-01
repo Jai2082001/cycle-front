@@ -1,0 +1,11 @@
+.subAd{
+    max-width: 200px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .subAd{
+        max-width: none;
+    }
+}

@@ -1,0 +1,32 @@
+.parentSubDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnContainer button{
+    margin: 0px 10px;
+    background-color: #e43a3a;
+    color: white;
+    border: none;
+    padding: 10px 8px;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+}
+.btnContainer button:hover{
+    background-color: #203f7a;
+}
+.parentEditDiv{
+    margin-top: 20px;
+}
+.inputContainer{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .delBtn{
+        margin-top: 10px  !important;
+    }   
+}

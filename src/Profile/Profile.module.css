@@ -1,0 +1,93 @@
+.parentContainer {
+    background-color: #F1F3F6;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.singleCol{
+    width: 100%;
+    display: flex;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    color: #878787;
+}
+.singleColSelected{
+    width: 100%;
+    display: flex;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.05s all ease-in-out;
+    color: #203f7a;
+}
+.singleCol:hover{
+    color: #203f7a;
+}
+.singleColContainer{
+    min-height: 100vh;
+    background-color: white
+}
+
+
+@media screen and (max-width: 992px) {
+    .colContainer{
+        min-height: 0px !important;
+    }
+    .singleColContainer{
+        min-height: 0px ;
+    }    
+}
+.singleMenu{
+    display: flex;
+    font-size: 18px;
+}
+.iconContainer{
+    margin-right: 10px;
+    color: #e43a3a;
+}
+.colContainer{
+    margin-top: 10px;    
+    background-color: white;
+    min-width: 100%;
+    min-height: 100vh;
+}
+.parentEditContainer{
+    padding: 20px;
+}
+
+.headSub{
+    margin-right: 20px;
+}
+
+.parentSubContainer{
+    margin-top: 15px;
+}
+
+.parentSub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.parentSub input{
+    min-width: 250px;
+}
+.btnContainer{
+    margin-top: 10px;
+}
+.btnContainerAdd{
+    margin-top: 20px !important;
+    text-align: center;
+}
+.btnContainerAdd button{
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    color: #e43a3a;
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+    transition: 0.2s all ease-in-out;
+}
+.btnContainerAdd button:hover{
+    background-color: lightgray;
+}

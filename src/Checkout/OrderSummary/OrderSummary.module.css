@@ -1,0 +1,71 @@
+
+.parentCartContainer{
+    border: 1px solid lightgray;
+    padding: 20px
+}
+
+.singleItem{
+    display: flex;
+    border: 1px solid lightgray;
+    margin: 10px 0px;
+    padding: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+
+}
+.offerDiv{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 120px;
+    text-align: center;
+    padding: 8px 10px;
+    background-color: #203f7a;
+    color: white;
+    transform: rotateZ(45deg) translateX(2rem) translateY(-1rem);
+    transform-origin: center;
+    z-index: 100;
+}
+.subSingleItem{
+    display: flex;
+    flex-direction: column;
+}
+.subParentContainer{
+    display: flex;
+    flex-direction: column;
+}
+.headerDiv{
+    display: flex;
+}
+.singleItem img{
+    max-width: 100px;
+}
+.priceSubDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.priceSubDiv h3{
+    margin: 0;
+    margin-left: 10px
+}
+.btnContainer{
+    text-align: right;
+}
+.btnContainer button{
+    padding: 10px 8px;
+    border: none;
+    background-color: #e43a3a;
+    color: white;
+    transition: 0.2s all ease-in-out;
+}
+
+.btnContainer button:hover{
+    background-color: #203f7a;
+}
+
+@media screen and (max-width: 950px){
+    
+}

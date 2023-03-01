@@ -1,0 +1,52 @@
+.overlayDiv{
+    background-image: url('../../images/background.jpg');
+    margin: 60px 0px;
+    background-attachment: fixed;
+    padding: 30px 0px
+}
+.itemsContainer{
+    padding: 10px 30px
+}
+
+.sliderHeaderContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.sliderContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.sliderDiv{
+    min-width: 300px;
+}
+.reviewsDiv{
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 7px;
+}
+.reviewContainer i{
+    color: rgba(0, 0, 0, 0.275);
+    font-size: 60px;
+}
+
+.iconContainer{
+    display: flex;
+}
+.iconContainer img{
+    margin-left: 20px;
+    width: 60px;
+}
+.descDiv{
+    margin-top: 15px;
+    color: black;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.post{
+    color: #e43a3a;
+}
+

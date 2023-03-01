@@ -1,0 +1,11 @@
+.filterBar{
+    padding: 0;
+}
+@media screen and (max-width: 992px) {
+    .filterBar {
+        display: none;
+    }
+}
+.productContainer{
+    padding: 0;
+}

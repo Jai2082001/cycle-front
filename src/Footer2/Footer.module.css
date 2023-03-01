@@ -1,0 +1,49 @@
+.footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.footer h1,
+.footer h3,
+.footer h4 {
+    margin: 0;
+}
+
+.childFooterDiv h3 {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center
+    
+}
+
+.childFooterDiv h4 {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.childFooterDiv h4 a, .childFooterDiv h3 a{
+    color: black
+}
+
+.linkDiv{
+    padding: 0px 20px
+}
+
+.linkDiv h4 a:hover {
+    color: #f7a907;    
+    cursor: pointer;
+}
+
+.linkDiv h4:hover {
+    color: #f7a907;    
+    cursor: pointer;
+}
+
+
+.logoContainer img{
+    max-width: 200px;
+}

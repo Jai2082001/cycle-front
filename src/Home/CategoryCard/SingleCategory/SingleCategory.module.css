@@ -1,0 +1,17 @@
+.imgContainer{
+    margin: 0 auto;
+    padding: 0px 20px;
+    text-align: center;
+    min-width: 200px;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+}
+
+.imgContainer img{
+    width: 100%;
+}
+
+.imgContainer p{
+    color: black !important;
+    font-weight: 400;
+}

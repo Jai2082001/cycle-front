@@ -1,0 +1,97 @@
+.bannerDiv{
+    text-align: center;
+    margin: 10px 0px;
+    border-radius: 9px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s all ease-out;
+}
+.bannerDiv img{
+    border-radius: 9px;
+    transition: 0.3s all ease-out;
+
+}
+
+.bannerParentDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerDiv:hover img{
+    transition: 0.3s all ease-out;
+    transform: scale(1.1);
+}
+
+.imgContentContainer{
+    width: 100%;
+    min-height: 396px;
+    position: relative;
+}
+
+.contentDiv{
+    position: absolute;
+    left: 37%;
+    top: 37%;
+}
+.contentDiv h1{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contentDiv p{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contentDiv button{
+    padding: 5px 8px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #e43a3a;
+}
+
+.contentDiv button:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+.imgContentContainer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s all ease-in;
+
+}
+.imgContentContainer:hover img{
+    transition: 0.3s all ease-in;
+    transform: scale(1.1);
+}
+.imgContentContainer{
+    overflow: hidden;
+}
+
+.contentDivs{
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+.contentDivs h1{
+    letter-spacing: 3px;
+    font-size: 36px;
+    color: white;
+}
+
+.contentDivs h2{
+    color: white;
+    letter-spacing: 3px;
+}
+@media screen and (max-width: 800px){
+    .parentDiv{
+        display: none;
+    }
+}

@@ -1,0 +1,8 @@
+.parentDiv{
+    position: fixed;
+    top: 10%;
+    left: 30%;
+    border: 1px solid white;
+    background: white;
+    z-index: 3000000000;
+}

@@ -1,0 +1,16 @@
+.filterBar{
+    display: block;
+    max-height: 450px;
+    overflow-y: scroll;
+}
+
+.filterDiv {
+    margin: 20px 0px;
+}
+
+.filterContainer {
+    margin: 20px 0px;
+    max-height: 500px;
+    transition: 0.5s all ease-in;
+}
+

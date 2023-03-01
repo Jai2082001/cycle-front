@@ -1,0 +1,71 @@
+
+
+.parentDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbarDiv{
+    background-color: black;
+    height: 100px;
+}
+.parentDiv p{
+    text-align: center;
+    font-size: 18px;
+}
+.navbarDiv{
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbarDiv img{
+    max-width: 100px;
+}
+.navbarDiv div button{
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    transition: 0.2s all ease-in-out;
+}
+.navbarDiv div button:hover{
+    background-color: black;
+    color: white;
+}
+.sidebarContainer{
+    display: flex;
+}
+.sidebarOne{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-height: 200px;
+
+}
+.sidebarOne button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 10px 0px;
+    transition: 0.2s all ease-in-out;
+}
+.sidebarOne button:hover{
+    background-color: lightgrey;
+    color: black;
+}
+
+.sidebarTwo{
+    max-height: 76vh;
+    overflow-y: scroll;
+    margin-left: 10px;
+    max-width: 650px;
+    border: 1px solid black;
+    padding: 10px
+}
+.sidebarTwo h1{
+    text-align: center;
+}

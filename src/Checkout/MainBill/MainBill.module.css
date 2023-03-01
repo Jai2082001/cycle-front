@@ -1,0 +1,44 @@
+.parentBtn{
+    border: 1px solid lightgray;
+    box-shadow: 3px 0px 12px -2px rgba(0,0,0,0.1);
+-webkit-box-shadow: 3px 0px 12px -2px rgba(0,0,0,0.1);
+-moz-box-shadow: 3px 0px 12px -2px rgba(0,0,0,0.1);
+}
+.totalPrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    align-items: center;
+}
+.totalPrice h3{
+    margin: 0;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.totalPrice h2{
+    margin: 0;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.discountHead{
+
+}
+
+.placeOrderBtn{
+    margin-top:1rem ;
+    background-color: #e43a3a;
+    color: white;
+    padding: 10px 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.placeOrderBtn:hover{
+    background-color: #203f7a;
+}
+.discount{
+    color: #203f7a;
+    font-size: 17px;
+}

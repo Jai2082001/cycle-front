@@ -1,0 +1,75 @@
+.contactUsDiv {
+    background-color: #444444;
+    color: white;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.parentContainer {
+    background-color: #f6f7f8;
+}
+
+.parentContainer div img {
+    width: 100%;
+}
+
+.parentContainer h2 {
+    font-size: 28px;
+}
+
+.parentContainer p {
+    color: #666;
+}
+
+.displayContainers {
+    min-height: 95vh;
+}
+
+.displayContainers>div {}
+
+.imgContainer {
+    display: flex;
+    align-items: flex-end;
+    object-fit: cover;
+}
+
+.contentDiv {
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.containerWhole {
+    margin: 20px 0px;
+}
+
+.imgContainer video {
+    /* aspect-ratio: 4/5; */
+    /* min-height: 100vh;
+    width: 100%; */
+}
+
+.videoContainer video {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+}
+
+.pictureContainer {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    background-position: center;
+    background-attachment: fixed;
+}

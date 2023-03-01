@@ -1,0 +1,113 @@
+.loginDiv {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    background-color: #e43a3a;
+    color: white;
+}
+
+.loginForm1 {
+    /* padding: 0px 80px; */
+    padding-left: 0;
+    min-width: 50%;
+    /* font-size: 20px; */
+    min-width: 400px;
+    background-color: #e43a3a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.forgotPassword {
+    cursor: pointer;
+    margin: 15px 0px;
+    color: white
+}
+
+.forgotPassword:hover {
+    color: #d9d9d9;
+}
+
+.submitBtn {
+    margin: 20px 0px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #e43a3a;
+    color: #e43a3a;
+}
+
+.otpBtn{
+    margin: 20px 0px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #e43a3a;
+    color: #e43a3a;
+    width: 100%;
+}
+
+.submitBtn:hover {
+    background-color: black;
+    border: 1px solid black
+}
+
+.divContainer {
+    display: flex;
+    background-color: lightgrey;
+}
+
+.imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    width: 100%;
+}
+
+.imgDiv img {
+    width: 100%;
+}
+
+.formText {
+    display: flex;
+    
+    justify-content: space-between;
+}
+.pipe{
+    display: none;
+}
+.otpInput{
+    max-width: 100px;
+}
+
+@media screen and (max-width: 900px){
+    .imgDiv{
+        display: none;
+    }
+    .loginDiv{
+        background-color: transparent !important ;
+        background-image: url('../images/newBike.svg');
+    }
+    .loginForm1{
+        /* opacity: 0.9; */
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .loginForm1 input{ 
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    .loginForm1{
+        text-align: center;
+    }
+    .formText{
+        justify-content: space-evenly;
+    }
+    .forgotPassword{
+        margin-left: 20px;
+    }
+}

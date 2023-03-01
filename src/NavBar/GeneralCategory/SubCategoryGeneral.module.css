@@ -1,0 +1,23 @@
+.subContainer {
+    margin: 10px;
+}
+
+
+
+.subContainer p{
+    color: black !important;
+    cursor: pointer;
+}
+
+.subContainer a{
+    color: black o !important;
+    cursor: pointer;
+}
+
+.subContainer a:hover{
+    color: #f7a907
+}
+
+.subContainer p:hover {
+    color: #f7a907;
+}

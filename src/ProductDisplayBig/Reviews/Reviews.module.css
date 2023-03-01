@@ -1,0 +1,56 @@
+.divReview {
+    margin: 20px 0px;
+}
+
+.reviewsDiv {
+    width: 100%;
+}
+
+.reviewDivContainer {
+    position: relative;
+    width: 100%
+}
+
+.reviewDivParentContainer {
+    width: 100%;
+    position: relative
+}
+
+.imgContainer {
+    padding: 20px 80px;
+    min-width: 250px;
+}
+
+.cardContainer {
+    box-shadow: 10px 1px 16px -8px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 10px 1px 16px -8px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 10px 1px 16px -8px rgba(0, 0, 0, 0.35);
+    background-color: #f7f7f7;
+}
+
+.imgContainer {}
+
+.imgContainer img {
+    border-radius: 50%;
+}
+
+.imgContainer div {
+    border: none;
+}
+
+.divReview {
+    padding: 50px 0px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.divReview h1 {
+    margin: 20px 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* 
+.imgContainer>div {
+    min-width: 250px;
+} */

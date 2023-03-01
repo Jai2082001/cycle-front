@@ -1,0 +1,60 @@
+.parentCreateAccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #e43a3a;
+}
+.subParentContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0px
+}
+.subParentContainer h2{
+    color: white;
+}
+
+.subParentChildContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.subParentChildContainer h2{
+    width: 50%;
+}
+
+
+.inputContainer2{
+    width: 60%;
+    margin: 10px 0px;
+}
+
+.inputContainer2 label{
+    color: white;
+    font-size: 16px;
+}
+
+.inputContainer2>div{
+    width: 100% !important;
+}
+
+.btnAvailableContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btnAvailableContainer button{
+    margin: 0  !important;
+    height: 100%;
+}
+.btnAvailableContainer div{
+    margin: 0;
+    
+}

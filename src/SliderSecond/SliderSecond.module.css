@@ -1,0 +1,31 @@
+.imgContainer {
+    padding: 20px;
+}
+
+.parentDiv {
+    box-shadow: 2px 1px 5px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 2px 1px 5px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 2px 1px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.imgContainer img {
+    width: 100%;
+}
+
+.imgContainer>div {
+    border: 1px solid #ccc;
+}
+
+.sliderContainer {
+    padding: 50px;
+}
+
+.sliderContainer button {
+    background-color: black;
+    color: white;
+}
+
+.sliderContainer button:hover {
+    background-color: black;
+    color: white;
+}

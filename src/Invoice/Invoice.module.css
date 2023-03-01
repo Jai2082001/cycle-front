@@ -1,0 +1,56 @@
+.invoiceParent{
+    margin: 10px     
+}
+.btnInvoice button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+.btnInvoice button:hover {
+    color: white;
+    background-color: black;
+}
+
+.mainInvoice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 785px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.soldHeading h3, h4{
+    margin: 0;
+}
+.addressHeading{
+    display: flex;
+    width: 100%;
+    margin: 8px 0px;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.soldHeading{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.invoiceAddress{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.orderId{
+    padding: 0px 10px
+}
+
+.orderId>div{
+    margin: 10px 0px;
+}
+
+.productDiv{
+    width: 100%;
+}

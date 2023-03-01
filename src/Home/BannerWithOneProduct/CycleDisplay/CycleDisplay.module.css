@@ -1,0 +1,41 @@
+.cycleContainer{
+    display: flex;
+    padding: 20px 30px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.btnDivs{
+
+}
+.btnIcon:hover{
+    background-color: rgb(32, 63, 122);
+}
+.btnGroupCart{
+    margin-top: 20px;
+    border: none;
+}
+.btnGroupCart button{
+    padding: 10px;
+}
+.cartBtn{
+    background-color: #222222;
+    border: none;
+    cursor: pointer;
+}
+.iconBtn{
+    border: none;
+    background-color: #E6393B !important;
+}
+.btnGroupCart:hover .cartBtn{
+    background-color: #16425b;
+}
+.btnGroupCart:active .cartBtn{
+    background-color: rgb(32, 63, 122);
+}
+.imgContainer{
+    max-width: 300px;
+}
+.imgContainer img{
+    width: 100%;
+}

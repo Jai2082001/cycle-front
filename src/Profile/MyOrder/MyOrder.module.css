@@ -1,0 +1,58 @@
+.parentDiv{
+    padding: 10px 20px;
+    text-align: center;
+}
+.parentDiv>div{
+    /* cursor: pointer; */
+}
+.productDesc img{
+    max-width: 200px;
+}
+.productDesc{
+    display: flex;
+    align-items: center;
+}
+.parentDiv h4{
+    margin: 0;
+}
+.parentContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.secondDiv{
+    text-align: left;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.amountDiv{
+    display: flex;
+    justify-content: center;
+}
+.amount{    
+    padding-right: 10px !important;
+    border-right: 1px solid lightgray;
+}
+.pdf{
+    padding-left: 10px;
+    cursor: pointer;
+}
+.secondDivResponsive{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .productDesc img{
+        max-width: 100px;
+    }
+    .secondDiv{
+        display: none;
+    }
+    .address{
+        text-align: center;
+    }
+    .secondDivResponsive{
+        display: block;
+    }
+}

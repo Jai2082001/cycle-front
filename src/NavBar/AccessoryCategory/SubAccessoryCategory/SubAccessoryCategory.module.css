@@ -1,0 +1,16 @@
+.subAccessDiv{
+    margin-left: 10px;
+    padding: 15px;
+}
+.subAccessDiv p:hover{
+    color: #F7A907;
+    cursor: pointer;
+}
+
+.subAccessDiv p{
+    color: black;
+    cursor: pointer;
+}
+.subAccessDiv h3{
+    color: black;
+}

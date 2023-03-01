@@ -1,0 +1,172 @@
+
+.headerDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    padding-left: 40px
+}
+
+.imgAnotherDiv {
+    margin: 20px 0px;
+}
+
+.imgCon {
+    max-width: 550px;
+}
+
+.sliderCon {
+    margin: 0px 30px;
+    max-width: 100px;
+}
+
+.imgCon img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.overprice {
+    font-size: 16px;
+}
+
+.sliderImgContainer {
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.sliderImgContainer img {
+    width: 100%;
+}
+
+.descriptionDiv {
+    padding: 20px;
+}
+
+.imgAnotherDiv {
+    padding: 10px;
+}
+
+.offerDiv {
+    margin: 15px 0px;
+    display: flex;
+    font-size: 16px;
+}
+
+.offerDiv span {
+    margin: 0px 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.offerDiv span:hover {
+    cursor: pointer;
+    color: grey;
+    border-bottom: 2px solid grey;
+}
+
+.price {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.priceSpan {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.imgDescDiv {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.imgDescAcDiv{
+    margin-bottom: 8px;
+}
+.imgDescAcDiv i{
+    margin-right: 10px;
+    color: #f7a907
+}
+
+
+.descImgDiv img {
+    width: 35px;
+    margin-right: 10px;
+    /* display: flex; */
+}
+
+.serviceDiv {
+    background-color: lightgray;
+}
+
+
+.btnContainer{
+    padding: 10px 20px;
+    background-color: #e6393b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnContainer:hover{
+    background-color: #203f7a;   
+}
+
+.btnContainer:active{
+    background-color: #203f7a;
+}
+
+.btnContainer:focus{
+    background-color: #203f7a;
+}
+
+.inputDivs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outOfStockMsg{
+    margin: 10px 0px;
+}
+
+.btnDiv{
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.2);
+    border: none;
+}
+.outOfStockMsg{
+    padding: 10px 0px;
+    background-color: #f7a907;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+.slider2Col{
+    display: none;
+}
+.imgConResponsive{
+    display: none;
+}
+@media screen and (max-width: 992px) {
+    .sliderCol{
+        display: none !important;
+    }   
+    .slider2Col{
+        margin-top: 20px;
+        display: block;
+    }
+    .imgConResponsive{
+        display: block;
+    }
+    .imgCon{
+        display: none ;
+    }
+}
+
+/* 
+.descriptionDiv {
+    padding: 10px
+} */

@@ -1,0 +1,13 @@
+.singleProductContainer {
+    width: 100%;
+    /* background-color: rgb(241, 239, 239); */
+    background-color: #FCFCFC;
+    height: 100%;
+}
+
+.smallProductDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

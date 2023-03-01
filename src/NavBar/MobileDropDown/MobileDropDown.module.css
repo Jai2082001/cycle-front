@@ -1,0 +1,40 @@
+.mobileBackground{
+    background: #ffffff;
+    /* height: 300vh; */
+    min-height: 100vh;
+    width: 60vw !important;
+}
+
+.spanBackground{
+    background-color: #e43a3a;
+}
+
+.spanBackground{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.iconBtn{
+    cursor: pointer;
+}
+.pDiv{
+    padding: 10px;
+}
+.pDiv p:hover{
+    cursor: pointer;
+    color: #f7a907;
+}
+.pDiv p a {
+    color: black;
+}
+
+.pDiv p a:hover{
+    cursor: pointer;
+    color: #f7a907;
+}
+
+.pDiv span:hover{
+    cursor: pointer;
+    color: #f7a907;
+}

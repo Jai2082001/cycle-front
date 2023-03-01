@@ -1,0 +1,12 @@
+.moreProducts {
+    padding: 50px 0px;
+    font-family: 'Playfair Display';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.moreProducts h1 {
+    font-family: 'Playfair Display';
+}

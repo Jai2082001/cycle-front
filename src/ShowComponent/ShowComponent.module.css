@@ -1,0 +1,32 @@
+.showContainer {
+    display: block;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 120px 0px;
+    padding-left: 50px;
+    width: 100%;
+}
+
+.showContainer h2 {
+    color: white;
+}
+
+.showContainer button {
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+}
+
+.parentButtonDiv {
+    display: flex;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    color: green;
+}

@@ -1,0 +1,36 @@
+.divReview {
+    margin: 20px 0px;
+}
+
+.reviewsDiv {
+    width: 100%;
+}
+
+.reviewDivContainer {
+    position: relative;
+    width: 100%
+}
+
+.reviewDivParentContainer {
+    width: 100%;
+    position: relative
+}
+
+.imgContainer {
+    padding: 20px 80px;
+    min-width: 250px;
+}
+
+.imgContainer img {
+    border-radius: 50%;
+}
+
+.imgContainer div {
+    border: none;
+}
+
+
+/* 
+.imgContainer>div {
+    min-width: 250px;
+} */

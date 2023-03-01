@@ -1,0 +1,44 @@
+.videoDiv {
+    margin-top: 20px;
+    width: 100vw;
+    height: 150px;
+    overflow: hidden;
+}
+
+/* .videoContentDiv{
+    height: 450px;
+    width: 100vw;
+    overflow: hidden;    
+} */
+
+.headingDiv{
+    display: flex;
+    border: 1px solid black;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.sportSpan{
+    color: red;
+}
+.headingDiv  p{
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 10px;
+}
+.videoDiv video {
+    display: none;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .videoDiv{
+        height: 450px !important;
+    }
+    .videoDiv video{
+        display: block;
+    }
+    .headingDiv{
+        display: none;
+    }
+}

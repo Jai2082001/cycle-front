@@ -1,0 +1,14 @@
+.cmbDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 28vh 0;
+    background-color: white;
+}
+
+.cmbDiv button {
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,135 @@
+.divContainer{
+    margin: 30px 0px;
+    align-items: center;
+}
+.backgroundDiv{
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    max-height: 400px;
+}
+.backgroundDiv:hover{
+    cursor: pointer;
+}
+.backgroundDiv:hover img{
+    transform: scale(1.1);
+}
+.backgroundDiv img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 400px;
+    transition: 0.2s all ease-in-out;
+}
+.backgroundDivRes{
+    display: none;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    max-height: 400px;
+}
+.backgroundDivRes:hover{
+    cursor: pointer;
+}
+.backgroundDivRes:hover img{
+    transform: scale(1.1);
+}
+
+.backgroundDivRes img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 400px;
+    transition: 0.2s all ease-in-out;
+}
+.imgContainer{
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+}
+.imgContainer:hover{
+    cursor: pointer;
+}
+.imgContainer:hover img{
+    transform: scale(1.1);
+}
+.imgContainer img{
+    width: 100%;
+    max-height: 400px;
+    transition: 0.2s all ease-in-out;
+}
+
+.contentDiv{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.contentDiv p{
+    color: white;
+}
+.contentDiv {
+    font-size: 24px;
+}
+.contentDiv button{
+    background-color: #E6393B;
+    color: white;
+    padding: 8px 15px;
+    outline: none;
+    border: none;
+}
+.contentDiv button:hover{
+    background-color: #222222;
+}
+.contentDiv p{
+    margin-bottom: 10px;
+}
+
+.smallText{
+    font-size: 16px;
+}
+.contentDiv button{
+    font-size: 16px;
+}
+.anotherResponsive{
+    display: none;
+}
+@media screen and (max-width: 1110px) {
+    .responsive{
+        display: none;
+    }   
+    .anotherResponsive{
+        display: block;
+    }
+    .backgroundDiv{
+        display: none;
+    }
+    .backgroundDivRes{
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .smallText{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .contentDiv p{
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .contentDiv button{
+        font-size: 13px;
+        padding: 5px 10px
+    }
+}
+
+
+/* 
+.backgroundDiv img{
+    max-width: 400px;
+} */
