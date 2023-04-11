@@ -68,7 +68,7 @@ const NavBar = ({ changeLocation, productNames, changeSidebar, cycleBrand, categ
                         <div className={classes.divFlexChild}>
                             <p onClick={cartHandler} className={classes.iconLink}><i class="fas fa-shopping-cart"></i>Cart</p>
                             <p onClick={loginHandler} className={classes.iconLink2}><i class="far fa-user-circle"></i>{user.name ? ` Hello ${user.name}` : ` Login / Signup`}</p>
-                            <p onClick={conditionHandler} className={classes.iconLink2}>Support</p>
+                            <p style={{marginRight: '0px'}} onClick={conditionHandler} className={classes.iconLink}>Support</p>
                         </div>
                     </div>
                 </Navbar>
