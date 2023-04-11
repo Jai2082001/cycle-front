@@ -72,6 +72,7 @@ const NavBar = ({ changeLocation, productNames, changeSidebar, cycleBrand, categ
                         </div>
                     </div>
                 </Navbar>
+                {/*  */}
             </div>
             <div className={classes.secondNavBar}>
                 <Sticky>
