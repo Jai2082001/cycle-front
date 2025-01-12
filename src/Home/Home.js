@@ -60,7 +60,7 @@ const Home = ({ page, changePage }) => {
     return (
         <>
             {loader && <FullScreenLoader></FullScreenLoader>}
-            {!loader && <>
+            {!loader    && <>
                 <Sidebar style={{ width: '100%' }}
                     animation='overlay' inverted onHide={() => { changeSidebar(false) }} vertical visible={sidebar} width='wide'>
                     <MobileDropDown changeLocation={changeLocation} productNames={productNames} changeSidebar={changeSidebar} cycleBrand={cycleBrand}
